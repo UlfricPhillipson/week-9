@@ -1,0 +1,85 @@
+/*UlfricParry*/
+
+body{
+    /* this is the bodyselector
+    setting the background-color property to the value you of dark violet-ish
+    setting the text color (foreground) property to navy-ish
+    */
+    background-color:  darkviolet;
+    color: lavender;
+}
+/*
+    this section sets the dimension
+*/
+header{
+    margin-right: 200px;
+}
+
+
+
+#memeImage{
+    margin-right: 200px;
+    height: 600px;
+    width: 600px;
+    padding: 5px;
+    
+    animation-name: moving;
+    animation-duration: 0s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+    
+}
+
+#memeimage{
+    animation-name: pictureBackground;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+}
+
+nav{
+    height: 400px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+
+}
+
+    @keyframes moving {
+        from{
+            margin-left: 100px;
+         }
+         to {
+            margin-left: 500px;
+            margin-top: 2%;
+        }  
+
+            0%   {background-color:red;}
+            25%  {background-color:yellow;}
+            50%  {background-color:blue;}
+            75%  {background-color:green;}
+            100% {background-color:red;}      
+    }
+
+#palChecker.rounded-input{
+ padding: 10px;
+ border-radius: 7px;
+
+}
+
+       
+    
+/*
+    this is the footer section - generally the footer will be at the bottom of the page
+*/
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*
+    the img with an id of memeImage will be affected by this style change hieght and width too make memeimage fit page better
+*/
+
